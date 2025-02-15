@@ -1,0 +1,7 @@
+rules:
+  - name: "SSH Traffic"
+    port: 22
+    action: "alert"
+  - name: "HTTP Traffic"
+    port: 80
+    action: "log"
